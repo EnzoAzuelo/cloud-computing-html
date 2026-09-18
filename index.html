@@ -1,0 +1,169 @@
+<head>
+    <title>Racing Relics</title>
+    <table>
+        <tr>
+            <th style="background-color: transparent;"><img src="logo.png" alt="Header Image" width="234"
+                    height="103.5"></th>
+        </tr>
+    </table>
+
+    <style>
+        body {
+            margin: 10px;
+            background-image: url(background.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+
+        @font-face {
+            font-family: "Title_Font";
+            src: url(font/911porschav3laser.otf);
+        }
+
+        @font-face {
+            font-family: "Text_Font";
+            src: url(font/911porschav3expand.otf);
+        }
+
+        @font-face {
+            font-family: "Input_Font";
+            src: url(font/alcester.otf);
+        }
+
+        .text-input {
+            font-family: "Input_Font";
+            font-size: 18px;
+            padding: 8px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .trans {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            transition: all 0.5s;
+        }
+
+        .trans:hover {
+            color: #000000;
+            transform: scale(1.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4px);
+        }
+
+        th {
+            background-color: rgba(128, 128, 128, 0.315);
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        .btn {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 12px 25px;
+            border: none;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .button-container {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 10px;
+            background: black;
+            border-radius: 20px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(159deg, #f8ecff, #686868 100%);
+            border-radius: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <FORM NAME=F1>
+        <div class="container">
+            <div class="employee-info">
+                <br>
+                <br>
+                <h2 style="color: #000000; font-family: Title_Font;">My Website</h2>
+                <table style="font-family: Text_Font;">
+                        <th>Name </th>
+                        <td>Joseph Enzo G. Azuelo</td>
+                    </tr>
+                    <tr>
+                        <th>Student No.</th>
+                        <td>20231105558</td>
+                    </tr>
+                    <tr>
+                        <th>Grade & Section</th>
+                        <td>CS1G - 4th Year College Student</td>
+                    </tr>
+                    <tr>
+                        <th>Contact Number</th>
+                        <td>09998195218</td>
+                    </tr>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="My Projects">
+                <br>
+                <br>
+                <h2 style="color:#000000; font-family: Title_Font;">Here are my Projects</h2>
+                <table style="color:#000000; font-family: Text_Font;">
+                    <tr>
+                        <th>OASYS</th>
+                        <td>Neuro-Symbolic AI Road Damage Detection Model</td>
+                    </tr>
+                    <tr>
+                        <th>Racelink</th>
+                        <td>Marathon Booking System</td>
+                    </tr>
+                    <tr>
+                        <th>Racing Relics</th>
+                        <td>Online Webpage for a Hotwheels Store</td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+
+    </FORM>
+</body>
+
+</html>
